@@ -1,0 +1,22 @@
+Source: golang-github-oneofone-xxhash
+Section: devel
+Priority: extra
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Alexandre Viau <aviau@debian.org>
+Build-Depends: debhelper (>= 10),
+               dh-golang,
+               golang-any
+Standards-Version: 3.9.8
+Homepage: https://github.com/OneOfOne/xxhash
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-oneofone-xxhash.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-oneofone-xxhash.git
+XS-Go-Import-Path: github.com/OneOfOne/xxhash
+
+Package: golang-github-oneofone-xxhash-dev
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: native implementation of the excellent XXHash hashing algorithm
+ package xxhash contains a native implementation of the excellent XXHash
+ hashing algorithm. This package used to contain a cgo version, but it was
+ removed.

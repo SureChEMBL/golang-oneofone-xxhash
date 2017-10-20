@@ -1,0 +1,5 @@
+golang-github-oneofone-xxhash (1.2+git20161215.1.5d8fefa-1) unstable; urgency=medium
+
+  * Initial release (Closes: #865080)
+
+ -- Alexandre Viau <aviau@debian.org>  Mon, 19 Jun 2017 01:41:37 -0400
